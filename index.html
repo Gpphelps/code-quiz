@@ -1,47 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>JS Coding Quiz</title>
-    <link rel="stylesheet" href="assets/style.css"> 
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+    <title>JavaScript Knowlodge Test</title>
 </head>
 
 <body>
-    <div id="startingDisplay">
-        <h1>JavaScript Knowlodge Tester</h1>
+    <!-- Link to highscores -->
+    <a href="high-scores.html">High Scores</a>
 
-        <p>"Answer the following questions related to JavaScript fundamentals before the time runs out! BEWARE every wrong answer decreases your remaining time by 10 seconds. Your score is equal to the time remaining when the game ends."
-        <p>
-        <p>Click the Start button to begin!</p>
+    <div id="currentTime"></div>
 
-        <button id=startButton> Start</button> 
-    </div>
-
-    <div id="questionDisply">
-        <div class="questionCard">
-            <textarea id="questionPrompt" class="card-header">Question 1</textarea>
-            <div id="answerArea" class="card-body">
-           
-                <button id="aAnswerBtn" class="answerBtn">- A -</button>
-                <button id="aAnswer" class="card-text">Answer A</button>
-            
-                <button id="bAnswerBtn" class="answerBtn">- B -</button>
-                <button id="bAnswer" class="card-text">Answer B</button>
-            
-                <button id="cAnswerBtn" class="answerBtn">- C -</button>
-                <button id="cAnswer" class="card-text">Answer C</button>
-            
-                <button id="dAnswerBtn" class="answerBtn">- D -</button>
-                <button id="dAnswer" class="card-text">Answer D</button>
-            </div>
-
+    <div id="wrapper">
+        <header><h1>JavaScript Knowlodge Test</h1></header>
+        
+        <!--Quiz Test -->
+        <div id="questionsCard">
+            <p>Answer the following questions related to JavaScript fundamentals before the time runs out! BEWARE every wrong answer decreases your remaining time by 10 seconds. Your score is equal to the time remaining when the game ends.</p>
+            <ul id="choicesUl"></ul>
+            <!-- Buttons -->
+            <button id="startBtn">Start Test!</button>
         </div>
+
     </div>
 
-
-    <script src="assets/script.js"></script>
+    <script src="./assets/script.js"></script>
 </body>
 
 </html>
