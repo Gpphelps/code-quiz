@@ -1,6 +1,6 @@
 # code-quiz
 
-This program is a simple JavaScript knowlodge test that asks the user a series of questions and gives a multiple choice list of answers for the user to answer with by click. The program uses two HTML JavaScript pages that are activated through the use of the game and checking locally stored high scores. 
+This program is a simple JavaScript knowlodge test that asks the user a series of questions and gives a multiple choice list of answers for the user to answer with by click. The program uses two HTML and JavaScript pages that are activated through the use of the game and checking locally stored high scores. 
 
 
 ### Usage
