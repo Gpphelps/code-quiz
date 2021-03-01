@@ -1,6 +1,6 @@
 # code-quiz
 
-This program is a simple JavaScript knowlodge test that asks the user a series of questions and gives a multiple choice list of answers for the user to answer with by click. The program uses two HTML pages and JavaScript and are activated through the use of the game and checking locally stored high scores. 
+This program is a simple JavaScript knowlodge test that asks the user a series of questions and gives a multiple choice list of answers for the user to answer with by click. The program uses two HTML JavaScript pages that are activated through the use of the game and checking locally stored high scores. 
 
 
 ### Usage
@@ -16,7 +16,7 @@ https://gpphelps.github.io/code-quiz/
 
 ### Contributing 
 
-If you would like to contribute in any way to this project please feel free to post an issue to the Github repository and I will address it.
+If you would like to contribute in any way to this project please feel free to post an issue to the Github repository and I will address it as quickly as possible.
 
 ### Features
 The code quiz uses the use of dynamic variables so that if a new question is added or questions are removed the total ammount of time for the game and the user displays will change to reflect the new number of questions. This webapge also features the use of localy stored data that allows the user to compete against their friends or classmates. 
