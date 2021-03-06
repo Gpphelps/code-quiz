@@ -163,6 +163,7 @@ function complete() {
             }
             console.log(finalScore);
             var allScores = localStorage.getItem("allScores");
+            //
             if (allScores === null) {
                 allScores = [];
             } 
